@@ -24,14 +24,14 @@ export default class Main extends Component {
     title: 'Usuários',
   };
 
-  // eslint-disable-next-line react/static-property-placement
+  
   static propTypes = {
     navigation: PropTypes.shape({
       navigate: PropTypes.func,
     }).isRequired,
   };
 
-  // eslint-disable-next-line react/state-in-constructor
+  
   state = {
     newUser: '',
     users: [],
